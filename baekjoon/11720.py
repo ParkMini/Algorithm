@@ -1,1 +1,3 @@
-input();print(sum(map(int, input())))
+s = input()
+for i in "abcdefghijklmnopqrstuvwxyz":
+    print(s.find(i), end=" ")
